@@ -200,3 +200,15 @@ if has("cscope")
   " show msg when any other cscope db added
   set cscopeverbose
 end
+
+" change line numbers to relative numbers
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-m> :call NumberToggle()<cr>
+
