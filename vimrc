@@ -1,6 +1,9 @@
 """""""""""""""""""""""""
 " Basic features
 """""""""""""""""""""""""
+scriptencoding utf-8
+set encoding=utf-8
+
 let pathogen_disabled = []
 if !has('gui_running')
   call add(g:pathogen_disabled, 'css-color')
