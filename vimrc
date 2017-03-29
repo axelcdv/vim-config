@@ -234,6 +234,9 @@ endfunc
 
 nnoremap <C-m> :call NumberToggle()<cr>
 
+" markdown
+let g:vim_markdown_folding_level = 6
+
 """""""""""""""""""""""""
 " Ruby Stuff
 """""""""""""""""""""""""
